@@ -2,4 +2,3 @@
 
 (load-file "proto.clj")
 (load-file "object.clj")
-
