@@ -5,5 +5,3 @@
 
 (load-file "parser.clj")
 (load-file "comb-parser.clj")
-
-
