@@ -1,0 +1,2 @@
+(load-file "functional.clj")
+
