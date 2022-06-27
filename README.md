@@ -8,7 +8,7 @@
 #|Name|Сomplexity|Mod
 ---|---|---|---
 1|Обработка ошибок||
-2|[Бинарный поиск](https://github.com/maladetska/paradigms-2022/blob/master/java-solutions/search/BinarySearch.java)|easy|*[Missing](https://github.com/maladetska/paradigms-2022/blob/master/java-solutions/search/BinarySearchMissing.java)*
+2|[Бинарный поиск](https://github.com/maladetska/paradigms-2022/blob/master/java-solutions/search/BinarySearchMissing.java)|easy|*Missing*
 3|[Очередь на массиве](https://github.com/maladetska/paradigms-2022/tree/master/java-solutions/queue)|easy|*Count*
 4|[Очереди](https://github.com/maladetska/paradigms-2022/tree/master/java-solutions/queue)|easy|*CountIf*
 5|Вычисление в различных типах||
