@@ -23,6 +23,34 @@
 14|[Дерево поиска на Prolog](https://github.com/maladetska/paradigms-2022/blob/master/prolog-solutions/tree-map.pl)|easy/hard|*Replace*/*Floor*
 15|[Разбор выражений на Prolog](https://github.com/maladetska/paradigms-2022/blob/master/prolog-solutions/expression.pl)|easy/hard|*Variables*
 
+Домашнее задание 15. Разбор выражений на Prolog
+Доработайте правило eval(Expression, Variables, Result), вычисляющее арифметические выражения.
+Пример вычисления выражения 2x-3 для x = 5:
+eval(
+    operation(op_subtract,
+        operation(op_multiply,
+            const(2),
+            variable(x)
+        ),
+        const(3)
+    ),
+    [(x, 5)],
+    7
+)
+                    
+Поддерживаемые операции: сложение (op_add, +), вычитание (op_subtract, -), умножение (op_multiply, *), деление (op_divide, /), противоположное число(op_negate, negate).
+Простой вариант. Реализуйте правило suffix_str(Expression, Atom), разбирающее/выводящее выражения, записанные в суффиксной форме. Например,
+    suffix_str(
+        operation(op_subtract,operation(op_multiply,const(2),variable(x)),const(3)),
+        '((2 x *) 3 -)'
+    )
+Сложный вариант. Реализуйте правило infix_str(Expression, Atom), разбирающее/выводящее выражения, записанные в полноскобочной инфиксной форме. Например,
+    infix_str(
+        operation(op_subtract,operation(op_multiply,const(2),variable(x)),const(3)),
+        '((2 * x) - 3)'
+    )
+Правила должны быть реализованы с применением DC-грамматик.
+
 ------
 01.03.02 ITMO, first year, second term
 
