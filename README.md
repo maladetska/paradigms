@@ -6,7 +6,7 @@
 
 
 #|Name|easy|hard|Mod
----|---|---|---
+---|---|---|---|---
 1|Обработка ошибок|||
 2|[Бинарный поиск](https://github.com/maladetska/paradigms-2022/blob/master/java-solutions/search/BinarySearchMissing.java)|+||*Missing*
 3|[Очередь на массиве](https://github.com/maladetska/paradigms-2022/tree/master/java-solutions/queue)|+||*Count*
