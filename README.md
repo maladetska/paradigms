@@ -1,4 +1,4 @@
-# paradigms-2022 
+# paradigms
  
 [Условия домашних заданий](https://www.kgeorgiy.info/courses/paradigms/homeworks.html)
 
